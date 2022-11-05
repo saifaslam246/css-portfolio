@@ -35,7 +35,7 @@ export const Brand = styled.div`
   }
 `;
 export const Logo = styled.img`
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 25px;
 `;
 export const NavSection = styled.div`
@@ -52,7 +52,13 @@ export const LinkContainer = styled.ul`
 
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 770px) and (min-width: 280px) {
+  @media screen and (max-width: 770px) and (min-width: 390px) {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    margin-top: -53px;
+  }
+  @media screen and (max-width: 393px) and (min-width: 280px) {
     display: flex;
     float: right;
     margin-right: 30px;

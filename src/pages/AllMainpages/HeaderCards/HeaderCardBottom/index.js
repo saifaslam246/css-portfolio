@@ -22,7 +22,7 @@ function HeaderCardBottom() {
           <UpperImage src={profile} alt="profile" />
         </UpperDiv>
         <CenterDiv>
-          <Heading>Saif ur</Heading>
+          <Heading>Saif ur Rehman</Heading>
           <Title>MERN Stack Devloper</Title>
         </CenterDiv>
         <BottomDiv>

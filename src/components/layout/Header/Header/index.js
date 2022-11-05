@@ -39,7 +39,8 @@ function Header() {
           </NameTag>
 
           <About>
-            This is the place where you can find every thing realted to the
+            This is the place where you can find every thing realted to the best
+            of
             <br />
             project to-do list or communication
           </About>

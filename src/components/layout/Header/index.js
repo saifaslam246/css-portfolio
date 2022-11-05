@@ -6,7 +6,7 @@ function Header() {
     <>
       <Navbar />
       <SideBar />
-      {/* <MainHeader /> */}
+      <MainHeader />
     </>
   );
 }

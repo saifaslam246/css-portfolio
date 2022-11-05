@@ -13,7 +13,11 @@ export const MainCard = styled.div`
   left: 50px;
   background-color: white;
   @media only screen and (max-width: 820px) and (min-width: 280px) {
-    display: none;
+    width: 45%;
+    height: 7%;
+    position: absolute;
+    top: 40px;
+    left: -130px;
   }
 `;
 
@@ -24,14 +28,28 @@ export const Circle = styled.div`
   background-color: yellow;
   display: inline-block;
   vertical-align: middle;
+  @media only screen and (max-width: 820px) and (min-width: 280px) {
+    width: 15px;
+    height: 15px;
+    border-radius: 30%;
+    margin-left: -5px;
+  }
 `;
 
 export const CircularSpan = styled.span`
   margin-left: 5px;
   font-size: 14px;
+  @media only screen and (max-width: 820px) and (min-width: 280px) {
+    font-size: 11.8px;
+    margin-left: 0px;
+  }
 `;
 
 export const CircleDiv = styled.div`
   padding-top: 2px;
   margin-left: 3px;
+  @media only screen and (max-width: 820px) and (min-width: 280px) {
+    padding-top: 0px;
+    margin-left: 1px;
+  }
 `;
