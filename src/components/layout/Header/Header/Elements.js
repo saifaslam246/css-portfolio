@@ -7,6 +7,7 @@ export const HeaderMain = styled.div`
   height: auto;
   @media only screen and (max-width: 768px) and (min-width: 200px) {
     flex-direction: column;
+    margin-bottom: 50px;
   }
 `;
 export const LeftHeader = styled.div`
@@ -37,23 +38,23 @@ export const RightHeader = styled.div`
   margin-right: 65px;
   position: relative;
   top: 10px;
-
+  top: -30px;
   @media only screen and (max-width: 414px) and (min-width: 200px) {
     width: 55%;
   }
-  /* @media only screen and (max-width: 540px) and (min-width: 415px) {
-    margin-left: 25px;
-  } */
-  /* @media only screen and (max-width: 770px) and (min-width: 541px) {
-    margin-left: 25px;
+  @media only screen and (max-width: 540px) and (min-width: 415px) {
+    top: 40px;
   }
-  @media only screen and (max-width: 821px) and (min-width: 770px) {
-    margin-left: 25px;
-    flex: 50%;
+  @media only screen and (max-width: 770px) and (min-width: 541px) {
+    top: 110px;
+    margin-bottom: 200px;
+  }
+  @media only screen and (max-width: 821px) and (min-width: 771px) {
+    margin-left: 10px;
   }
   @media only screen and (max-width: 912px) and (min-width: 822px) {
-    margin-left: 40px;
-  } */
+    /* background-color: red; */
+  }
 `;
 
 export const QuoteTag = styled.h4`
@@ -150,7 +151,7 @@ export const HeaderCircle = styled.div`
   border-radius: 0rem 0rem 17.5rem 17.5rem;
   transform: rotate(-30deg);
   z-index: -1;
-  @media only screen and (max-width: 414px) and (min-width: 200px) {
+  @media only screen and (max-width: 410px) and (min-width: 200px) {
     position: absolute;
     top: 120px;
     left: 24%;
@@ -159,19 +160,51 @@ export const HeaderCircle = styled.div`
     border-radius: 0rem 0rem 9rem 9rem;
     transform: rotate(-24deg);
   }
-  /* @media only screen and (max-width: 540px) and (min-width: 415px) {
-    margin-left: 25px;
+  @media only screen and (max-width: 414px) and (min-width: 410px) {
+    position: absolute;
+    top: 140px;
+    left: 24%;
+    width: 18rem;
+    height: 9rem;
+    border-radius: 0rem 0rem 9rem 9rem;
+    transform: rotate(-24deg);
+  }
+  @media only screen and (max-width: 540px) and (min-width: 415px) {
+    position: absolute;
+    top: 190px;
+    left: 12%;
+    width: 26rem;
+    height: 13rem;
+    border-radius: 0rem 0rem 13rem 13rem;
+    transform: rotate(-24deg);
   }
   @media only screen and (max-width: 770px) and (min-width: 541px) {
-    margin-left: 25px;
+    position: absolute;
+    top: 190px;
+    left: 16%;
+    width: 36rem;
+    height: 18rem;
+    border-radius: 0rem 0rem 18rem 18rem;
+    transform: rotate(-24deg);
   }
-  @media only screen and (max-width: 821px) and (min-width: 770px) {
-    margin-left: 25px;
-    flex: 50%;
+  @media only screen and (max-width: 821px) and (min-width: 771px) {
+    position: absolute;
+    top: 250px;
+    left: 9%;
+    width: 24rem;
+    height: 12rem;
+    border-radius: 0rem 0rem 12rem 12rem;
+    transform: rotate(-30deg);
   }
   @media only screen and (max-width: 912px) and (min-width: 822px) {
-    margin-left: 40px;
-  } */
+    position: absolute;
+    top: 330px;
+    left: 10%;
+    width: 26rem;
+    height: 13rem;
+    border-radius: 0rem 0rem 13rem 13rem;
+    transform: rotate(-30deg);
+  }
 `;
 
 export const Profile = styled.img`
@@ -182,7 +215,7 @@ export const Profile = styled.img`
   left: 25%;
   border-radius: 50%;
   transform: rotate(30deg);
-  @media only screen and (max-width: 414px) and (min-width: 280px) {
+  @media only screen and (max-width: 410px) and (min-width: 280px) {
     position: absolute;
     width: 75%;
     height: 190%;
@@ -190,5 +223,49 @@ export const Profile = styled.img`
     left: 10%;
     border-radius: 50%;
     transform: rotate(25deg);
+  }
+  @media only screen and (max-width: 414px) and (min-width: 410px) {
+    position: absolute;
+    width: 80%;
+    height: 210%;
+    top: -110%;
+    left: 10%;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  @media only screen and (max-width: 540px) and (min-width: 415px) {
+    position: absolute;
+    width: 73%;
+    height: 205%;
+    top: -107%;
+    left: 12%;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  @media only screen and (max-width: 770px) and (min-width: 541px) {
+    position: absolute;
+    width: 73%;
+    height: 205%;
+    top: -107%;
+    left: 12%;
+    border-radius: 50%;
+    transform: rotate(25deg);
+  }
+  /* @media only screen and (max-width: 821px) and (min-width: 771px) {
+    position: absolute;
+    width: 58%;
+    height: 150%;
+    top: -47%;
+    left: 25%;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    display: none;
+  } */
+  @media only screen and (max-width: 912px) and (min-width: 822px) {
+    position: absolute;
+    width: 70%;
+    height: 190%;
+    top: -92%;
+    left: 12%;
   }
 `;
