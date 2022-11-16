@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const MainCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 35%;
+  width: 31.5%;
   height: 38%;
   border-radius: 20px;
   position: relative;
-  z-index: 1;
   background-color: white;
   top: 30%;
+  left: 6%;
   @media only screen and (max-width: 410px) and (min-width: 280px) {
     width: 60%;
     position: relative;

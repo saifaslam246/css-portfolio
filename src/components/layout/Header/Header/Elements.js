@@ -6,7 +6,7 @@ export const HeaderMain = styled.div`
   width: 100%;
   height: auto;
   @media only screen and (max-width: 768px) and (min-width: 200px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-bottom: 50px;
   }
 `;
@@ -35,12 +35,12 @@ export const LeftHeader = styled.div`
 `;
 export const RightHeader = styled.div`
   flex: 55%;
-  margin-right: 65px;
+  margin-right: 64px;
   position: relative;
   top: 10px;
-  top: -30px;
   @media only screen and (max-width: 414px) and (min-width: 200px) {
     width: 55%;
+    margin-top: 50px;
   }
   @media only screen and (max-width: 540px) and (min-width: 415px) {
     top: 40px;
@@ -215,6 +215,7 @@ export const Profile = styled.img`
   left: 25%;
   border-radius: 50%;
   transform: rotate(30deg);
+  /* background-color: red; */
   @media only screen and (max-width: 410px) and (min-width: 280px) {
     position: absolute;
     width: 75%;

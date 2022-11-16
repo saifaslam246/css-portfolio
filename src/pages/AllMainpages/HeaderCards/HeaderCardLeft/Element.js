@@ -9,8 +9,8 @@ export const MainCard = styled.div`
   border-radius: 10px;
   margin-left: 70%;
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 100px;
+  left: 0px;
   background-color: white;
 
   @media only screen and (max-width: 410px) and (min-width: 280px) {
@@ -70,7 +70,7 @@ export const Circle = styled.div`
 
 export const CircularSpan = styled.span`
   margin-left: 5px;
-  font-size: 14px;
+  font-size: 16px;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     font-size: 12px;
     margin-left: 0px;

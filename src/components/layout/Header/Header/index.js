@@ -41,7 +41,7 @@ function Header() {
           <About>
             This is the place where you can find every thing realted to the best
             of
-            <br />
+            {/* <br /> */}
             project to-do list or communication
           </About>
           <ButtonTag>

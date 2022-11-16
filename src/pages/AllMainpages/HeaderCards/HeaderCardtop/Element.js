@@ -7,7 +7,8 @@ export const MainCard = styled.div`
   height: 20%;
   border-radius: 20px;
   position: relative;
-  top: 70px;
+  top: 90px;
+  left: 40px;
   @media only screen and (max-width: 410px) and (min-width: 200px) {
     width: 70%;
     position: relative;
@@ -101,7 +102,7 @@ export const HeadingCard = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 10px;
   background-color: white;
-  z-index: 1;
+  /* z-index: 1; */
   @media only screen and (max-width: 414px) and (min-width: 200px) {
     margin-left: 11px;
     margin-top: -12px;
