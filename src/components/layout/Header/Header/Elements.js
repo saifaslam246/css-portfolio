@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderMain = styled.div`
   display: flex;
   flex-direction: row;
+  margin-top: 100px;
   width: 100%;
   height: auto;
   @media only screen and (max-width: 768px) and (min-width: 200px) {
@@ -132,7 +133,7 @@ export const ButtonSign = styled.div`
   vertical-align: middle;
   margin-left: 60px;
   border-top: 10px solid transparent;
-  border-left: 20px solid blue;
+  border-left: 20px solid #64888f;
   border-bottom: 10px solid transparent;
 `;
 
@@ -143,13 +144,13 @@ export const IconDiv = styled.div`
 
 export const HeaderCircle = styled.div`
   position: absolute;
-  top: 40%;
-  left: 15%;
-  width: 35rem;
-  height: 17.5rem;
-  background-color: blue;
-  border-radius: 0rem 0rem 17.5rem 17.5rem;
-  transform: rotate(-30deg);
+  top: 0;
+  /* left: 15%; */
+  /* width: 35rem; */
+  /* height: 17.5rem; */
+  /* background-color: blue; */
+  /* border-radius: 0rem 0rem 17.5rem 17.5rem; */
+  /* transform: rotate(-30deg);s */
   z-index: -1;
   @media only screen and (max-width: 410px) and (min-width: 200px) {
     position: absolute;

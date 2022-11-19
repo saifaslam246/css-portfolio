@@ -16,6 +16,7 @@ import {
 import { ContactButton } from "../../../custom/Button/ContactButton";
 import heart from "../../../../assets/heart.png";
 import profile from "../../../../assets/personal.png";
+import saif from "../../../../assets/saifprofile.png";
 import HeaderIcons from "../HeaderIcons/index";
 import HeaderCardBottom from "../../../../pages/AllMainpages/HeaderCards/HeaderCardBottom";
 import HeaderCardTop from "../../../../pages/AllMainpages/HeaderCards/HeaderCardtop";
@@ -66,8 +67,18 @@ function Header() {
           <HeaderCardBottom />
           <HeaderCardLeft />
           <HeaderCircle>
-            <Profile src={profile} alt="Profile image" />
+            {/* <Profile src={profile} alt="Profile image" /> */}
+            <img
+              style={{ height: 500, width: 500, marginLeft: 120 }}
+              src={saif}
+              alt="Profile image"
+            />
           </HeaderCircle>
+          {/* <img
+            style={{ height: 500, width: 500, marginLeft: 120 }}
+            src={saif}
+            alt="Profile image"
+          /> */}
         </RightHeader>
       </HeaderMain>
     </>

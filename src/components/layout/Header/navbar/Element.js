@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.nav`
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
   width: 100%;
-  height: 100%;
+  height: 100px;
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  //margin-top: 2rem;
   backdrop-filter: blur(10px);
 
   z-index: 1;
