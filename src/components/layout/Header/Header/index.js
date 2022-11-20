@@ -30,7 +30,7 @@ function Header() {
             <Heart src={heart} alt="heart" />
             <br />
             Speed Up <br />
-            Communiction
+            Communictionn
           </QuoteTag>
           <NameTag>
             Hi I'm Saif ur
