@@ -64,21 +64,16 @@ function Header() {
         </LeftHeader>
         <RightHeader>
           <HeaderCardTop />
-          <HeaderCardBottom />
+          {/* <HeaderCardBottom /> */}
           <HeaderCardLeft />
           <HeaderCircle>
             {/* <Profile src={profile} alt="Profile image" /> */}
-            <img
-              style={{ height: 500, width: 500, marginLeft: 120 }}
+            <Profile
+              // style={{ height: 500, width: 500, marginLeft: 120 }}
               src={saif}
               alt="Profile image"
             />
           </HeaderCircle>
-          {/* <img
-            style={{ height: 500, width: 500, marginLeft: 120 }}
-            src={saif}
-            alt="Profile image"
-          /> */}
         </RightHeader>
       </HeaderMain>
     </>

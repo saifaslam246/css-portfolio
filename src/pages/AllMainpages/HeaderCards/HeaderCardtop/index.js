@@ -15,7 +15,7 @@ function HeaderCardTop() {
         <Heading>Great Project</Heading>
         <HeadingCard>10+ Done</HeadingCard>
         <RatioHeading>
-          <RatioHeadingSpan>2.1%</RatioHeadingSpan> vs last 7 days
+          <RatioHeadingSpan>2.1%</RatioHeadingSpan> vs last month
         </RatioHeading>
       </MainCard>
     </>

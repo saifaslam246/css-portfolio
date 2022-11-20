@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const MainCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 31.5%;
-  height: 38%;
+  width: 24%;
+  height: 32%;
   border-radius: 20px;
   position: relative;
   background-color: white;
-  top: 30%;
-  left: 6%;
+  top: 40.6%;
+  left: 14%;
   @media only screen and (max-width: 410px) and (min-width: 280px) {
     width: 60%;
     position: relative;
@@ -52,8 +52,8 @@ export const UpperDiv = styled.div``;
 export const UpperImage = styled.img`
   margin-top: 15px;
   margin-left: 60px;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     margin-top: 20px;
@@ -74,7 +74,7 @@ export const UpperImage = styled.img`
   }
 `;
 export const CenterDiv = styled.div`
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: -10px;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     margin-left: 10px;
@@ -120,8 +120,8 @@ export const Title = styled.p`
   }
 `;
 export const BottomDiv = styled.div`
-  margin-top: 0px;
-  margin-left: 20px;
+  margin-top: -5px;
+  margin-left: 10px;
   display: flex;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     margin-left: 9px;
@@ -140,7 +140,8 @@ export const Followers = styled.div`
   flex: 1;
 `;
 export const Tag = styled.p`
-  font-size: 13px;
+  font-size: 9px;
+  font-weight: bold;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     font-size: 8.5px;
   }
@@ -152,8 +153,9 @@ export const Tag = styled.p`
   }
 `;
 export const Number = styled.h2`
-  margin-top: -10px;
-  margin-left: 15px;
+  margin-top: -5px;
+  margin-left: 12px;
+  font-size: 20px;
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     margin-top: -5px;
     font-size: 25px;

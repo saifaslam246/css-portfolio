@@ -4,7 +4,7 @@ export const MainCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 21%;
-  height: 4%;
+  height: 15%;
   padding: 10px;
   border-radius: 10px;
   margin-left: 70%;
@@ -13,43 +13,63 @@ export const MainCard = styled.div`
   left: 0px;
   background-color: white;
 
-  @media only screen and (max-width: 410px) and (min-width: 280px) {
+  @media only screen and (max-width: 280px) and (min-width: 200px) {
+    width: 45%;
+    height: 14%;
+    top: 40px;
+    left: 75px;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 410px) and (min-width: 281px) {
     width: 48%;
-    height: 7%;
+    height: 14%;
     position: absolute;
-    top: 37px;
-    left: -140px;
+    top: 60px;
+    left: 110px;
   }
   @media only screen and (max-width: 414px) and (min-width: 410px) {
-    width: 45%;
-    height: 7%;
+    width: 48%;
+    height: 15%;
     position: absolute;
-    top: 40px;
-    left: -150px;
+    top: 60px;
+    left: 110px;
   }
   @media only screen and (max-width: 540px) and (min-width: 415px) {
     width: 30%;
-    height: 7%;
+    height: 20%;
     position: absolute;
-    top: 50px;
-    left: -310px;
+    top: 60px;
+    left: 15px;
   }
   @media only screen and (max-width: 770px) and (min-width: 541px) {
-    position: absolute;
-    width: 27%;
-    height: 7%;
-    top: -10px;
-    left: -450px;
+    width: 30%;
+    height: 22%;
+    left: 0px;
+    top: 0px;
   }
   @media only screen and (max-width: 821px) and (min-width: 771px) {
     width: 35%;
-    margin-left: 70%;
-    position: absolute;
-    top: 120px;
-    left: 0px;
+    height: 22%;
+    left: 20px;
   }
   @media only screen and (max-width: 912px) and (min-width: 822px) {
-    display: none;
+    width: 25%;
+    height: 14%;
+    left: 45px;
+    top: 120px;
+  }
+  @media only screen and (max-width: 1024px) and (min-width: 913px) {
+    width: 29%;
+    height: 14%;
+    left: 25px;
+    top: 140px;
+  }
+  @media only screen and (max-width: 1280px) and (min-width: 1025px) {
+    width: 24%;
+    height: 14%;
+    left: -10px;
+    top: 140px;
   }
 `;
 
@@ -63,7 +83,11 @@ export const Circle = styled.div`
   @media only screen and (max-width: 414px) and (min-width: 280px) {
     width: 15px;
     height: 15px;
-    border-radius: 30%;
+    margin-left: -5px;
+  }
+  @media only screen and (max-width: 912px) and (min-width: 910px) {
+    width: 15px;
+    height: 15px;
     margin-left: -5px;
   }
 `;
@@ -71,7 +95,12 @@ export const Circle = styled.div`
 export const CircularSpan = styled.span`
   margin-left: 5px;
   font-size: 16px;
-  @media only screen and (max-width: 414px) and (min-width: 280px) {
+  @media only screen and (max-width: 280px) and (min-width: 200px) {
+    font-size: 8px;
+    margin-left: 0px;
+  }
+
+  @media only screen and (max-width: 414px) and (min-width: 281px) {
     font-size: 12px;
     margin-left: 0px;
   }
@@ -85,6 +114,10 @@ export const CircularSpan = styled.span`
   }
   @media only screen and (max-width: 821px) and (min-width: 771px) {
     font-size: 16px;
+    margin-left: 2px;
+  }
+  @media only screen and (max-width: 912px) and (min-width: 822px) {
+    font-size: 15px;
     margin-left: 2px;
   }
 `;
