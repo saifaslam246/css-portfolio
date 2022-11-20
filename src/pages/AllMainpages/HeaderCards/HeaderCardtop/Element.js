@@ -38,7 +38,6 @@ export const MainCard = styled.div`
     width: 35%;
     top: -20px;
     left: 30px;
-    /* height: 110%; */
   }
   @media only screen and (max-width: 821px) and (min-width: 771px) {
     width: 40%;
@@ -85,11 +84,6 @@ export const Heart = styled.img`
     width: 25px;
     margin-left: 5px;
   }
-  /* @media only screen and (max-width: 912px) and (min-width: 822px) {
-    height: 25px;
-    width: 25px;
-    margin-left: 5px;
-  } */
 `;
 
 export const Heading = styled.h2`
@@ -113,11 +107,8 @@ export const Heading = styled.h2`
     margin-left: 3px;
     font-size: 0.9rem;
   }
-  /* @media only screen and (max-width: 912px) and (min-width: 822px) {
-    margin-left: 3px;
-    font-size: 0.9rem;
-  } */
 `;
+
 
 export const HeadingCard = styled.h1`
   margin-left: 18px;
@@ -147,12 +138,8 @@ export const HeadingCard = styled.h1`
     margin-top: -9px;
     font-size: 1.7rem;
   }
-  /* @media only screen and (max-width: 912px) and (min-width: 822px) {
-    margin-left: 8px;
-    margin-top: -9px;
-    font-size: 1.7rem;
-  } */
 `;
+
 
 export const RatioHeading = styled.h4`
   margin-left: 22px;
@@ -175,10 +162,8 @@ export const RatioHeading = styled.h4`
     margin-left: 10px;
     font-size: 0.82rem;
   }
-  /* @media only screen and (max-width: 920px) and (min-width: 822px) {
-    margin-left: 10px;
-  } */
 `;
+
 
 export const RatioHeadingSpan = styled.span`
   color: green;
