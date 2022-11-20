@@ -12,7 +12,6 @@ export const MainCard = styled.div`
   top: 100px;
   left: 0px;
   background-color: white;
-
   @media only screen and (max-width: 280px) and (min-width: 200px) {
     width: 45%;
     height: 14%;
@@ -20,7 +19,6 @@ export const MainCard = styled.div`
     left: 75px;
     border-radius: 5px;
   }
-
   @media only screen and (max-width: 410px) and (min-width: 281px) {
     width: 48%;
     height: 14%;
@@ -73,6 +71,7 @@ export const MainCard = styled.div`
   }
 `;
 
+
 export const Circle = styled.div`
   width: 20px;
   height: 20px;
@@ -92,6 +91,7 @@ export const Circle = styled.div`
   }
 `;
 
+
 export const CircularSpan = styled.span`
   margin-left: 5px;
   font-size: 16px;
@@ -99,7 +99,6 @@ export const CircularSpan = styled.span`
     font-size: 8px;
     margin-left: 0px;
   }
-
   @media only screen and (max-width: 414px) and (min-width: 281px) {
     font-size: 12px;
     margin-left: 0px;
@@ -121,6 +120,7 @@ export const CircularSpan = styled.span`
     margin-left: 2px;
   }
 `;
+
 
 export const CircleDiv = styled.div`
   padding-top: 2px;

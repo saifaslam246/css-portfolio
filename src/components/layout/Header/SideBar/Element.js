@@ -14,6 +14,7 @@ export const BackContainer = styled.div`
     right: ${({ isOpen }) => (isOpen ? "26%" : "102%")};
   }
 `;
+
 export const NavbarContainer = styled.nav`
   display: none;
   @media screen and (max-width: 770px) and (min-width: 280px) {
@@ -28,22 +29,26 @@ export const NavbarContainer = styled.nav`
     right: ${({ isOpen }) => (isOpen ? "30%" : "102%")};
   }
 `;
+
 export const Brand = styled.div`
   display: none;
   @media screen and (max-width: 770px) {
     display: flex;
   }
 `;
+
 export const Logo = styled.img`
   margin-left: 20px;
   margin-top: 25px;
 `;
+
 export const NavSection = styled.div`
   flex: 2;
   margin-top: 130px;
   margin-bottom: 50px;
   text-align: center;
 `;
+
 export const LinkContainer = styled.ul`
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;

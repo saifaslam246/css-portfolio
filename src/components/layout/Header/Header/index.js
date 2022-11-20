@@ -30,7 +30,7 @@ function Header() {
             <Heart src={heart} alt="heart" />
             <br />
             Speed Up <br />
-            Communictionn
+            Communiction
           </QuoteTag>
           <NameTag>
             Hi I'm Saif ur
@@ -41,9 +41,7 @@ function Header() {
 
           <About>
             This is the place where you can find every thing realted to the best
-            of
-            {/* <br /> */}
-            project to-do list or communication
+            of project to-do list or communication
           </About>
           <ButtonTag>
             <ContactButton
@@ -67,12 +65,7 @@ function Header() {
           {/* <HeaderCardBottom /> */}
           <HeaderCardLeft />
           <HeaderCircle>
-            {/* <Profile src={profile} alt="Profile image" /> */}
-            <Profile
-              // style={{ height: 500, width: 500, marginLeft: 120 }}
-              src={saif}
-              alt="Profile image"
-            />
+            <Profile src={saif} alt="Profile image" />
           </HeaderCircle>
         </RightHeader>
       </HeaderMain>

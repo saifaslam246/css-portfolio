@@ -25,23 +25,3 @@ function HeaderIcons() {
   );
 }
 export default HeaderIcons;
-
-// import { MdCall, BsFillChatFill } from "../../../../utils/icons";
-// import { IconCard } from "./Element";
-// function HeaderIcons() {
-//   return (
-//     <>
-//       <IconCard>
-//         <BsFillChatFill />
-//       </IconCard>
-//       <IconCard>
-//         <MdCall
-//           style={{
-//             color: "green",
-//           }}
-//         />
-//       </IconCard>
-//     </>
-//   );
-// }
-// export default HeaderIcons;
